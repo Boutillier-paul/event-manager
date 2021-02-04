@@ -1,0 +1,61 @@
+body{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;	
+    min-height: 100vh;
+}
+
+nav, h1{
+    margin-bottom: 50px !important;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+.fiche{
+    margin-bottom: 50px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.participationList{
+    margin-bottom: 20px;
+}
+
+.addParticipation, .form-select{
+    margin: 15px 0;
+}
+
+.form-add-entity{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-add-entity input{
+    margin: 10px 0;
+}
+
+.form-add-entity .btn{
+    display: block;
+    margin: 0 auto !important;
+}
